@@ -1,2 +1,6 @@
-import { THexToRgbValue, THexToRgb } from "./type";
-export declare const hexToRgb: (hex: THexToRgbValue) => THexToRgb;
+type THexToRgbValue = string;
+type THexToRgb = string | undefined;
+
+declare const hexToRgb: (hex: THexToRgbValue) => THexToRgb;
+
+export { hexToRgb };
