@@ -1,5 +1,3 @@
-'use strict';
-
 const format = (string) => parseInt(string, 16);
 const alpha = (string, formatString = format(string)) => string === "00" ? "0%" : formatString ? formatString === 255 ? void 0 : +(formatString / 255).toPrecision(2) * 100 + "%" : void 0;
 const hexToRgb = (hex) => {
@@ -18,4 +16,4 @@ const hexToRgb = (hex) => {
   }
 };
 
-exports.hexToRgb = hexToRgb;
+export { hexToRgb };

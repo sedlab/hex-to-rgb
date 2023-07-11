@@ -1,17 +1,17 @@
 {
   "name": "hex-to-rgb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./index.js",
   "types": "./index.d.ts",
   "license": "MIT",
   "author": {
-    "name": "Дмитрий Сединкин",
-    "url": "https://github.com/dsedinkin"
+    "name": "SedLab",
+    "url": "https://github.com/sedlab"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dsedinkin/hex-to-rgb.git"
+    "url": "git+https://github.com/sedlab/hex-to-rgb.git"
   },
   "dependencies": {}
 }

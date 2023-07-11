@@ -4,7 +4,7 @@
 
 ## Установка
 
-`npm i -s dsedinkin/hex-to-rgb#latest` или `yarn add dsedinkin/hex-to-rgb#latest`
+`npm install dsedinkin/hex-to-rgb#latest --save` или `yarn add dsedinkin/hex-to-rgb#latest`
 
 ## Использование
 
